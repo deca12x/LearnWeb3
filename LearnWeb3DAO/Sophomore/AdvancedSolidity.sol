@@ -314,8 +314,7 @@ contract ExternalCaller {
 
     e.g. If we want to see our balance:
     1) ERC20 contracts have a function called balanceOf. To call it, we need an interface (below)
-    2) The constructor let's the user insert what what contract we're looking at
-
+    2) The constructor let's the user insert what contract we're looking at
     */
 
     MinimalERC20 externalContract; // State variable of the type MinimalERC20:
